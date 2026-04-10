@@ -1,10 +1,13 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)"
+    ],
     "additionalDirectories": [
       "h:\\basePlatform\\mailletter-sys\\mailletter-sys\\02-开发库\\01-需求开发"
-    ],
-    "allow": [
-      "Bash(git add:*)"
     ]
   }
 }
