@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "h:\\basePlatform\\mailletter-sys\\mailletter-sys\\02-开发库\\01-需求开发"
+    ],
+    "allow": [
+      "Bash(git add:*)"
+    ]
+  }
+}
