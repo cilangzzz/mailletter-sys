@@ -1,13 +1,23 @@
 {
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit -m ':*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git clone:*)",
+      "Bash(git config:*)",
+      "Bash(git -C \"H:/basePlatform/mailletter-sys/mailletter-sys\" remote -v)",
+      "Bash(git -C \"H:/basePlatform/mailletter-sys/mailletter-sys/03-源码库/01-mailletter-sys-backend/trunk\" remote -v)",
+      "Bash(git -C \"H:/basePlatform/mailletter-sys/mailletter-sys/03-源码库/02-mailletter-sys-frontend/trunk\" remote -v)",
+      "Bash(rm -rf \"H:/basePlatform/mailletter-sys/mailletter-sys/03-源码库/01-mailletter-sys-backend/trunk/.git\")",
+      "Bash(rm -rf \"H:/basePlatform/mailletter-sys/mailletter-sys/03-源码库/02-mailletter-sys-frontend/trunk/.git\")",
+      "Bash(mv 需求理解/*.md ./)",
+      "Bash(rm -rf 需求理解)"
     ],
+    "defaultMode": "bypassPermissions",
     "additionalDirectories": [
-      "h:\\basePlatform\\mailletter-sys\\mailletter-sys\\02-开发库\\01-需求开发"
+      "h:\\basePlatform\\mailletter-sys\\mailletter-sys\\02-开发库\\01-需求开发",
+      "H:\\basePlatform\\mailletter-sys\\mailletter-sys\\.claude"
     ]
   }
 }
